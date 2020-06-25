@@ -109,7 +109,7 @@ with open(os.path.join(template_dir,'base.html'),'w')   as f:
 print('basic project done... Setting up Virtual Environment now...')
 os.chdir(parent_dir)
 print("Present Directory->")
-cmd('pwd')
+print(os.getcwd())
 
 print('Installing pipenv')
 
