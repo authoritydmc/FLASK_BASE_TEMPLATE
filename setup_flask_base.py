@@ -1,7 +1,10 @@
+# Script by authoritydmc
+
+
 import os
 import sys
 import subprocess
-print("Welcome to Flask base Template Setup :) v 0.1")
+print("Welcome to Flask base Template Setup :) by authoritydmc v 0.1")
 
 
 def cmd(argument):
