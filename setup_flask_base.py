@@ -1,10 +1,7 @@
-# Script by authoritydmc
-
-
 import os
 import sys
 import subprocess
-print("Welcome to Flask base Template Setup :) by authoritydmc v 0.1")
+print("Welcome to Flask base Template Setup :) v 0.1")
 
 
 def cmd(argument):
@@ -118,23 +115,20 @@ print('Installing pipenv')
 
 cmd('pip3 install pipenv')
 
-print('Setting up the virtual environment ')
-cmd('pipenv install')
 
-print('activating the virtual environment ')
-cmd('pipenv shell')
+
 
 print('Installing Flask')
 cmd('pipenv install flask')
 
-print('making requirements.txt')
-cmd('pip freeze>requirements.txt')
-
-print('Will run now ')
-
-cmd('flask run')
 
 
+print("After you enter in your virtual environment type flask run to test your program")
+cmd('pipenv run flask run')
+
+
+print('Activating the virtual environment using pipenv shell next time ')
+cmd('pipenv shell')
 
 
 
