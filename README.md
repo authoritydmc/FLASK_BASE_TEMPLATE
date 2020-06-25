@@ -1,6 +1,14 @@
 # FLASK_BASE_TEMPLATE
 
+# Easy Setup:
 
+1. Just Download setup_flask_base.py
+2. Execute it and give the project Name
+3. it will create all appropriate directories and also install pipenv and will run base template..
+
+**ENJOY :)**
+
+# Alternative Setup and Guide
 
 ## Structure Explanation and format
 
