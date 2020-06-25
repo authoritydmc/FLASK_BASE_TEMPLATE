@@ -1,24 +1,34 @@
 # FLASK_BASE_TEMPLATE
 
 
-#USING THIS TEMEPLATE
+# USING THIS TEMEPLATE
 
-##SECTIONS
+## Structure Explanation and format
 
->app.py will be the file which will run by flask run or guniorn app:app
+### root directory will have :>
 
->application pacakage will contain all the source code related to your project
+> **app.py** will be the file which will run by flask run or guniorn app:app
+
+> **application** pacakage will contain all the source code related to your project
+
+> **other setup files** like gitignore ,Procfile,lockfiles etc ...
+ 
+### application directory will have :-> 
+
+> **__init__.py** file has Flask app object ,here you will register you **Blueprint** for different routing modules of your project
 
 
->each Subdirectories(subpackages) are used to distinctly code and manage the system. so the project doesnt become a mess.
+> **each Subdirectories(subpackages) are used to distinctly code and manage the system. so the project doesnt become a mess.**
 
 
->databases will contain module related to your databases functionality
+> **databases** <subdirectory> :-> will contain module related to your databases functionality
 
->routes will contain all the different sub routing modules ..
+>**routes** <subdirectory> :->  will contain all the different sub routing modules ..
 
->utility will contain utitlity modules  like sending email , making a random ID generation module ..
+>**utility** <subdirectory> :->  will contain utitlity modules  like sending email , making a random ID generation module ..
 
->static will contain static files like css ,javascripts ,images etc.
+>**static** <subdirectory> :->  will contain static files like css ,javascripts ,images etc.
 
->templates wil contain jinja based layout for web page creation ..
+>**templates** <subdirectory> :->   wil contain jinja based layout for web page creation ..
+  
+
