@@ -7,9 +7,9 @@
 
 ### root directory will have :>
 
-> **app.py** will be the file which will run by flask run or guniorn app:app
+ **app.py** will be the file which will run by flask run or guniorn app:app
 
-> **application** pacakage will contain all the source code related to your project
+  **application** pacakage will contain all the source code related to your project
 
 > **other setup files** like gitignore ,Procfile,lockfiles etc ...
  
