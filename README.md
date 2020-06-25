@@ -55,8 +55,19 @@
  
  1. now whenever you want to work on this project ..always open the **terminal** at the directory path 
  2. Type **pipenv shell** to activate virtual Environment
- 3. If you need any python module ..**INSTEAD OF INSTALLING WITH pip install :modulename: use pipenv install :modulename:
- 4. use **flask run** or install gunicorn and run the app with gunicorn app:app
+ 3. If you need any python module ..**INSTEAD OF INSTALLING WITH pip install :modulename: use pipenv install :modulename:**
+ 4. use **flask run** or install gunicorn and run the app with gunicorn app:app to Run the application..
+ 
+ 
+ 
+ ##### Optional ..
+ 
+ Rename the application directory with your project name directory..
+ 
+ 
+ 
+ ##### Coming Update:
+ Script in python to make custom project structure for your project..base.. so you will need only one file to run and all the required structure with init file will be created
  
  
  
