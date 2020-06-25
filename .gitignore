@@ -1,4 +1,5 @@
 config_internal.py
 *__pycache*
+*/__pycache*/*
 test.py
 *Pipfile
